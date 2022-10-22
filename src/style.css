@@ -19,14 +19,14 @@ p {
     font-size: 30px;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.container-item{
+.container-item {
     width: 650px;
     height: 650px;
     margin: 15px;
@@ -35,7 +35,7 @@ p {
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
 }
 
-.card{
+.card {
     position: relative;
     text-align: center;
     transition: transform 1s;
@@ -47,7 +47,7 @@ p {
     border-radius: 20px;
     height: 100%;
     width: 100%;
-    backface-visibility:hidden;
+    backface-visibility: hidden;
 }
 
 .card:hover {
